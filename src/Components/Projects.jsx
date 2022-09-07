@@ -8,13 +8,7 @@ function Projects({}) {
 
 
   return (
-     <div>
-{/* <button className="button-images" onclick="myFunction()"><img src="/buytheroompic.png"/></button> */}
-
-<input onClick={() => window.location.replace('https://buy-the-room-frontend.herokuapp.com/rooms')}className="button-images" type="image" src="/buytheroompic.png" />
-
-
-
+     <div className="projects-container">
 
   <div className="tech-pics-container"> 
 
@@ -38,6 +32,9 @@ function Projects({}) {
         src="/railspic.png"
         alt="logo"
       />
+      </div>
+      <div className="project">
+      <input id="project-image" onClick={() => window.location.replace('https://buy-the-room-frontend.herokuapp.com/rooms')}className="button-images" type="image" src="/buytheroompic.png" />
       </div>
       </div>
   );

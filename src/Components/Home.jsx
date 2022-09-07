@@ -18,7 +18,7 @@ const Home = () => {
       </h1>
 
       <div className="home-div"
-      >My name is Shay. I am a Colorado Native that moved to Austin Texas around 10 years ago. I taught in AustinIsd for five years, and am transitioning my career into tech as a software developer. I am a recent graduate from Flatiron School, and developed a huge passion for coding and learning new things.   </div>
+      >Hi, my name is Shay. I am a Colorado Native that moved to Austin Texas around 10 years ago. I taught in AustinIsd for five years, and am transitioning my career into tech as a software developer. I am a recent graduate from Flatiron School, and developed a huge passion for coding and learning new things.   </div>
 
       <div class='light x1'></div>
   <div class='light x2'></div>

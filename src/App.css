@@ -54,6 +54,9 @@
 .contact {
   background-color: rgb(219, 155, 219);
 }
+.live-coding {
+  background-color: rgb(219, 155, 219);
+}
 .navbar a:hover {
   background-color: rgb(77, 3, 64);
 }
@@ -272,56 +275,48 @@ body {
   padding-left: 100px;
 }
 
-.tech-pics {
-  height: 100px;
-  width: 200px;
+.video-images {
+  height: 300px;
+  width: 400px;
   padding-top: 100px;
   float: left; 
   padding-right: 100px;
   padding-left: 100px;
 }
-/* .tech-pic1 {
+
+.tech-pics {
   height: 100px;
-  width: 300px;
-  padding-top: 400px;
-  float: left;
-  float: bottom;
+  width: 200px;
+  padding-top: 100px;
+
+  padding-right: 250px; 
+
+}
+.project {
+  padding-top: 100px;
+  
+} 
+
+#project-image {
+  height: 300px;
+  width: 400px;
+  padding-left: 500px;
 
 }
 
-.tech-pic2 {
-  height: 100px;
-  width: 300px;
-  padding-top: 0px;
-  /* float: ;  */
-  /* float: bottom;
-  padding-right: 0px;
-  padding-left: 0px;
-}
-
-.tech-pics3 {
-  height: 100px;
-  width: 300px;
-  float: left; 
-  float: bottom;
-  padding-right: 100px;
-  padding-left: 0px;
-}
-
-.tech-pics4 {
-  height: 100px;
-  width: 300px;
-  float: left; 
-  float: bottom;
-  padding-right: 100px;
-  padding-left: 100px;
+/* .projects-container {
+  background-color: rgb(219, 155, 219);
+  display: inline-block;
+  margin-left: 0px;
+  margin-left: 0px;
 } */
-
-
+ 
 .tech-pics-container {
   width: 100px;
   height: 100px;
-} */
+  /* display: inline-block; */
+  display:flex;
+} 
 
   
 .github {

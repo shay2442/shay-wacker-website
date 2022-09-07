@@ -33,7 +33,7 @@ function App() {
           <Projects/>
         }
       />
-       <Route  path="/Live Coding"
+       <Route  path="/LiveCoding"
         element={
           <LiveCoding/>
         }
