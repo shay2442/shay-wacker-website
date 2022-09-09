@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Components/Home"
 import LiveCoding from "./Components/LiveCoding"
+import Email from "./Components/Email"
 import Contact from "./Components/Contact"
 import Projects from "./Components/Projects"
 import './App.css';
@@ -36,6 +37,11 @@ function App() {
        <Route  path="/LiveCoding"
         element={
           <LiveCoding/>
+        }
+      />
+      <Route  path="/Email"
+        element={
+          <Email/>
         }
       />
       </Routes>
