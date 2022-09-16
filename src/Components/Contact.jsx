@@ -7,11 +7,12 @@ import {
   AiFillFileText
 } from "react-icons/ai";
 import styled from "styled-components";
-import PDF from "../assets/Shay Wacker Resume.pdf";
+
 
 const Linkedin = "https://www.linkedin.com/in/shay-wacker-233854208/";
 const Github = "https://github.com/shay2442";
 const Blogs = "https://twitter.com/shayallison2442";
+const Resume =  "/ShayWackerResume.pdf"
 function Contact() {
   return (
     <div className="contact">
@@ -31,7 +32,7 @@ function Contact() {
           <AiFillTwitterSquare size="5rem" color="black" />
           <Link className="gradient__text"> Twitter </Link>
         </Wrapper>
-        <Wrapper href={PDF}>
+        <Wrapper href={Resume} >
           <AiFillFileText size="5rem" color="black" />
           <Link className="gradient__text"> Resume </Link>
         </Wrapper>

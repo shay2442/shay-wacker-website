@@ -3,11 +3,6 @@ import React from 'react'
 const Home = () => {
   return (
     <div className="home">
-      {/* <img
-        className="logo"
-        src="/computer screen. .jpeg"
-        alt="logo"
-      /> */}
        <img className="pic"
         src="/mypic3.png"
         alt="logo"
@@ -18,7 +13,7 @@ const Home = () => {
       </h1>
 
       <div className="home-div"
-      >Hi, my name is Shay. I am a Colorado Native that moved to Austin Texas around 10 years ago. I taught in Austin for five years, and am transitioning my career into tech as a software developer. I am a recent graduate from Flatiron School, and developed a huge passion for coding and learning new things.   </div>
+      >Hi, my name is Shay. I am a software developer with a background in education. When I was teaching I got involved with implementing new technology platforms into the classroom, and that is where I discovered my love of coding. I love to take on new projects or fix things that are not working in others. It is like a giant puzzle to me, and I love figuring them out and learning new things.   </div>
 
       <div class='light x1'></div>
   <div class='light x2'></div>
