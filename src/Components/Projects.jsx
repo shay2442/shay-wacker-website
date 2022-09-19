@@ -36,6 +36,10 @@ function Projects({}) {
       <div className="project">
       <input id="project-image" onClick={() => window.location.replace('https://buy-the-room-frontend.herokuapp.com/rooms')}className="button-images" type="image" src="/buytheroompic.png" />
       </div>
+      <div className="project">
+      <input id="project-image" onClick={() => window.location.replace('https://www.loom.com/share/3c86f6b2ed3948b4bf3c33a80299a871')}className="button-images" type="image" src="/places.png" />
+      </div>
+      
       </div>
   );
 }
