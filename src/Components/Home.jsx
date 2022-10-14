@@ -13,7 +13,11 @@ const Home = () => {
       </h1>
 
       <div className="home-div"
-      >Hi, my name is Shay. I am a software developer with a background in education. When I was teaching I got involved with implementing new technology platforms into the classroom, and that is where I discovered my love of coding. I love to take on new projects or fix things that are not working in others. It is like a giant puzzle to me, and I love figuring them out and learning new things.   </div>
+      >Hi, my name is Shay. I am a software developer with a background in education. When I was teaching I got involved with implementing new technology platforms into the classroom, and that is where I discovered my love of coding.</div>
+      <br></br>
+      <div className="home-div">
+
+This portfolio includes my work experience, projects I worked on, and the live coding shows my thought process to solve algorithms. I'm excited for you to view my portfolio, and welcome the opportunity to talk more.  </div>
 
       <div class='light x1'></div>
   <div class='light x2'></div>

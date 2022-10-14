@@ -36,7 +36,7 @@
 }
 
 .home-title {
-  padding-top: 100px;
+  padding-top:35px;
   padding-left: 110px;
   color: white;
   font-size: 70px;
@@ -46,8 +46,9 @@
 .home-div {
   padding-top: 0px;
   padding-left: 75px;
+  padding-right: 75px;
   color: white;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Comic Sans MS, Comic Sans, cursive"
 }
 
@@ -60,7 +61,8 @@
   background-color: rgb(219, 155, 219);
 }
 .live-coding {
-  background-color: rgb(219, 155, 219);
+  background-color: #db9bdb;
+  display: inline-block;
 }
 .navbar a:hover {
   background-color: rgb(77, 3, 64);
@@ -304,19 +306,19 @@ body {
   
 } 
 
-#project-image {
+#project-image a:hover {
+  background-color: rgb(236, 223, 234); 
   height: 300px;
   width: 400px;
-  padding-left: 500px;
+  padding-left: 700px;
 
 }
 
-/* .projects-container {
-  background-color: rgb(219, 155, 219);
+.projects-container {
+  background-color: #db9bdb;
   display: inline-block;
-  margin-left: 0px;
-  margin-left: 0px;
-} */
+ width: 100%;
+}
  
 .tech-pics-container {
   width: 100px;
@@ -324,6 +326,7 @@ body {
   /* display: inline-block; */
   display:flex;
 } 
+
 
   
 .github {
