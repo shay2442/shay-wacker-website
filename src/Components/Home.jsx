@@ -3,8 +3,9 @@ import React from 'react'
 const Home = () => {
   return (
     <div className="home">
+   
        <img className="pic"
-        src="/mypic3.png"
+        src="/mypic.jpg"
         alt="logo"
       />
 

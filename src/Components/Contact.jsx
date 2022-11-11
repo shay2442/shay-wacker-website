@@ -20,20 +20,20 @@ function Contact() {
       </div>
       <div className="contact__div-container">
         <Wrapper href={Github} target="_blank">
-          <AiFillGithub size="5rem" color="black" />
-          <Link className="gradient__text"> Github </Link>
+          <AiFillGithub size="5rem" color="white" />
+          <Link className="text"> Github </Link>
         </Wrapper>
         <Wrapper href={Linkedin} target="_blank">
-          <AiFillLinkedin size="5rem" color="Black" />
-          <Link className="gradient__text">LinkedIn</Link>
+          <AiFillLinkedin size="5rem" color="white" />
+          <Link className="text">LinkedIn</Link>
         </Wrapper>
         <Wrapper href={Blogs} target="_blank">
-          <AiFillTwitterSquare size="5rem" color="black" />
-          <Link className="gradient__text"> Twitter </Link>
+          <AiFillTwitterSquare size="5rem" color="white" />
+          <Link className="text"> Twitter </Link>
         </Wrapper>
         <Wrapper href={Resume} target="_blank">
-          <AiFillFileText size="5rem" color="black" />
-          <Link className="gradient__text"> Resume </Link>
+          <AiFillFileText size="5rem" color="white" />
+          <Link className="text"> Resume </Link>
         </Wrapper>
       </div>
     </div>
