@@ -10,8 +10,9 @@ import styled from "styled-components";
 
 const Linkedin = "https://www.linkedin.com/in/shay-wacker-233854208/";
 const Github = "https://github.com/shay2442";
-const Blogs = "https://twitter.com/shayallison2442";
-const Resume = "/ShayWackerResume.pdf";
+const Twitter = "https://twitter.com/shayallison2442";
+const Blogs = "https://medium.com/@shay2442"
+// const Resume = "/ShayWackerResume.pdf";
 function Contact() {
   return (
     <div className="contact">
@@ -27,13 +28,13 @@ function Contact() {
           <AiFillLinkedin size="5rem" color="white" />
           <Link className="text">LinkedIn</Link>
         </Wrapper>
-        <Wrapper href={Blogs} target="_blank">
+        <Wrapper href={Twitter} target="_blank">
           <AiFillTwitterSquare size="5rem" color="white" />
           <Link className="text"> Twitter </Link>
         </Wrapper>
-        <Wrapper href={Resume} target="_blank">
+        <Wrapper href={Blogs} target="_blank">
           <AiFillFileText size="5rem" color="white" />
-          <Link className="text"> Resume </Link>
+          <Link className="text"> Blogs </Link>
         </Wrapper>
       </div>
     </div>

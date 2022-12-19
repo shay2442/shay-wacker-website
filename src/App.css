@@ -140,6 +140,7 @@
   background: radial-gradient(#4f87c7, #1f1013);
   display: inline-block;
   width: 100%;
+  padding-bottom: 500px;
 }
 
 .tech-pics-container {
